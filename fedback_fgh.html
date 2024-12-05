@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Bootcamp</title>
+</head>
+<body>
+    <p>
+        <h2>Feedback Form: Bootcamp Class <br/>
+        Fazztrack
+        </h2>
+    </p>
+    <form>
+        <!--
+        (label+input)*4
+        -->
+        <label for="id-fhg">ID</label>
+        <br/>
+        <input type="text" id="id-fhg" name="fhg-id">
+        <br/>
+        <label for="id-nama">Nama</label>
+        <br/>
+        <input type="text" id="id-nama" name="fhg-nama">
+        <br/>
+        <label for="number-fgh">Batch</label>
+        <br/>
+        <input type="number" id="number-fgh"  name="fgh-number">
+        <br/>
+        <label> Kelas</label>
+        <br/>
+        <input type="checkbox" name="golang" id="golang-id" /><label for="golang-id">Fullstack Golang</label> <br/>
+        <input type="checkbox" name="backend" id="backend-id" /><label for="backend-id">Backend</label><br/>
+        <input type="checkbox" name="frontend" id="frontend-id" /><label for="frontend-id">Frontend</label><br/>
+        <input type="checkbox" name="developer" id="developer-id" /><label for="developer-id">Web Developer</label>
+        <br />
+        <label for="">Lokasi Camp</label>
+        <br/>
+        <input type="radio" id="camp-of" value="online" name="camp" checked>
+        <label for="camp-on">Online</label>
+        <br/>
+        <input type="radio" id="camp-of" value="ofline" name="camp">
+        <label for="camp-of">Ofline</label>
+        <br/>
+        <label for="trainer-id">Trainer</label>
+        <br/>
+        <select name="trainer" id="trainer-id">
+            <option value="default" hidden>Pilih Trainer</option>
+            <option value="FS">Fahrul Septiana</option>
+            <option value="MF">Muhamad Febriansyah</option>
+            <option value="FRD">Fakhri Ridho Dhiyamatra</option>
+            <option value="MN">Mahardicka Nurachman</option>
+          </select>
+        <br/>
+        <label for="material-id">Topik Materi</label>
+        <br/>
+        <textarea name="material-topic" id="material-id"
+        rows="2"
+        cols="50"
+        maxlength="50">
+        </textarea>
+        <br/>
+        <button type="submit">Kirim</button>
+
+    </form>
+</body>
+</html>
